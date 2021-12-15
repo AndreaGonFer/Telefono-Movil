@@ -65,7 +65,7 @@ public class Telefono {
     }
     
     public void imprimirDetalles () { 
-        System.out.println ("El teledono es de la marca " + marca + " con imei " + imei + " con bateria " + bateria + ".");
+        System.out.println ("El telefono es de la marca " + marca + " con IMEI " + imei + ". ¿La bateria esta cargada? " + bateria.getCargada() + ". Tiene una capacidad de "+ bateria.getCapacidad()+" mAh.");
     }
 }
 
