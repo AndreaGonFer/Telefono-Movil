@@ -63,4 +63,9 @@ public class Telefono {
     public void setBateria (Bateria nuevaBateria) {
         nuevaBateria = bateria;
     }
+    
+    public void imprimirDetalles () { 
+        System.out.println ("El teledono es de la marca " + marca + " con imei " + imei + " con bateria " + bateria + ".");
+    }
 }
+
