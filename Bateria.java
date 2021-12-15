@@ -13,6 +13,22 @@ public class Bateria {
      */
     public Bateria(int mAh, boolean charge){
         capacidad  = mAh;
-        charge = cargada;
+        cargada = charge;
+    }
+    
+    public int getCapacidad(){
+        return capacidad;
+    }
+    
+    public boolean getCharge(){
+        return cargada;
+    }
+    
+    public void setCapacidad(int laCapacidad){
+        capacidad = laCapacidad;    
+    }
+    
+    public void setCharge(boolean charged){
+        cargada= charged;
     }
 }
